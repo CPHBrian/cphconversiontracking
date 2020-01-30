@@ -1,0 +1,42 @@
+<script>
+  window.addEventListener('load',function(){
+    if(window.location.pathname == "/contact-form-submitted/"){
+gtag('event', 'conversion', {'send_to': 'AW-1010119682/F5_yCKH_lZgBEILo1OED'});
+}
+  })
+
+
+    if (window.location.href.indexOf('/custom-patch-apparel/#wpcf7-f1864-p1785-o1') != -1) {
+      var x = 0;
+      var myVar = setInterval(function() {
+        if (x == 0) {
+          if (jQuery('.wpcf7-mail-sent-ok').is(":visible")) {
+
+            gtag('event', 'conversion', {
+              'send_to': 'AW-1010119682/DyLCCLeN-LcBEILo1OED'
+            });
+            clearInterval(myVar);
+            x = 1;
+          }
+        }
+      }, 1000);
+    }
+    if (window.location.href.indexOf('/custom-patches-for-hats/#wpcf7-f1130-p902-o1') != -1) {
+      var x = 0;
+      var myVar = setInterval(function() {
+        if (x == 0) {
+          if (jQuery('.wpcf7-mail-sent-ok').is(":visible")) {
+
+            gtag('event', 'conversion', {
+              'send_to': 'AW-1010119682/uKhDCMmApK0BEILo1OED'
+            });
+
+            clearInterval(myVar);
+            x = 1;
+          }
+        }
+      }, 1000);
+    }
+  });
+
+</script>
